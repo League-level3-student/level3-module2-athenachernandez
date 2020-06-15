@@ -35,6 +35,7 @@ public class BogoSorter extends Sorter {
 			array[randomIndexOne] = array[randomIndexTwo];
 			array[randomIndexTwo] = savedRandomIndex;
 
+			
 		}
 	}
 }
