@@ -15,7 +15,7 @@ public class _02_InterpolationSearch {
 		//   initialize them to 0 and the length of the array minus one
 		//   respectively
 		int start = 0;
-		int end = array.length;
+		int end = array.length-1;
         //3. Make a while loop that runs while the following conditions are true:
         //   start is less than or equal to end
         //   value is greater than or equal to the array element at start
@@ -42,7 +42,7 @@ public class _02_InterpolationSearch {
       
             //6. if the array element at position is equal to the value,
             //   then we found it and can return position.
-			if (array[position] == value) {
+		if (array[position] == value) {
 				return position;
 			}
 		
